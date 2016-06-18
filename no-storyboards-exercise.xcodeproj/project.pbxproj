@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C32B71881D158A4100B67EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71871D158A4100B67EF7 /* AppDelegate.swift */; };
-		C32B718A1D158A4100B67EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71891D158A4100B67EF7 /* ViewController.swift */; };
-		C32B718D1D158A4100B67EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B718B1D158A4100B67EF7 /* Main.storyboard */; };
+		C32B718A1D158A4100B67EF7 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71891D158A4100B67EF7 /* RedViewController.swift */; };
 		C32B718F1D158A4100B67EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32B718E1D158A4100B67EF7 /* Assets.xcassets */; };
 		C32B71921D158A4100B67EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B71901D158A4100B67EF7 /* LaunchScreen.storyboard */; };
 		C32B719D1D158A4200B67EF7 /* no_storyboards_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B719C1D158A4200B67EF7 /* no_storyboards_exerciseTests.swift */; };
 		C32B71A81D158A4200B67EF7 /* no_storyboards_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71A71D158A4200B67EF7 /* no_storyboards_exerciseUITests.swift */; };
+		C32B71B91D15AA3800B67EF7 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32B71B81D15AA3800B67EF7 /* RedViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C32B71C21D15AAD700B67EF7 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71C01D15AAD700B67EF7 /* YellowViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C32B71C31D15AAD700B67EF7 /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32B71C11D15AAD700B67EF7 /* YellowViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C32B71C61D15AAF500B67EF7 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B71C41D15AAF500B67EF7 /* OrangeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C32B71C71D15AAF500B67EF7 /* OrangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32B71C51D15AAF500B67EF7 /* OrangeViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,7 @@
 /* Begin PBXFileReference section */
 		C32B71841D158A4100B67EF7 /* no-storyboards-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "no-storyboards-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B71871D158A4100B67EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C32B71891D158A4100B67EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C32B718C1D158A4100B67EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32B71891D158A4100B67EF7 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		C32B718E1D158A4100B67EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32B71911D158A4100B67EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32B71931D158A4100B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		C32B71A31D158A4200B67EF7 /* no-storyboards-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "no-storyboards-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B71A71D158A4200B67EF7 /* no_storyboards_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = no_storyboards_exerciseUITests.swift; sourceTree = "<group>"; };
 		C32B71A91D158A4200B67EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32B71B81D15AA3800B67EF7 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		C32B71C01D15AAD700B67EF7 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		C32B71C11D15AAD700B67EF7 /* YellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+		C32B71C41D15AAF500B67EF7 /* OrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		C32B71C51D15AAF500B67EF7 /* OrangeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrangeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,10 @@
 		C32B71861D158A4100B67EF7 /* no-storyboards-exercise */ = {
 			isa = PBXGroup;
 			children = (
+				C32B71B71D158A6C00B67EF7 /* Model */,
+				C32B71B61D158A6600B67EF7 /* View */,
+				C32B71B51D158A5D00B67EF7 /* Controller */,
 				C32B71871D158A4100B67EF7 /* AppDelegate.swift */,
-				C32B71891D158A4100B67EF7 /* ViewController.swift */,
-				C32B718B1D158A4100B67EF7 /* Main.storyboard */,
 				C32B718E1D158A4100B67EF7 /* Assets.xcassets */,
 				C32B71901D158A4100B67EF7 /* LaunchScreen.storyboard */,
 				C32B71931D158A4100B67EF7 /* Info.plist */,
@@ -123,6 +132,33 @@
 				C32B71A91D158A4200B67EF7 /* Info.plist */,
 			);
 			path = "no-storyboards-exerciseUITests";
+			sourceTree = "<group>";
+		};
+		C32B71B51D158A5D00B67EF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C32B71891D158A4100B67EF7 /* RedViewController.swift */,
+				C32B71C41D15AAF500B67EF7 /* OrangeViewController.swift */,
+				C32B71C01D15AAD700B67EF7 /* YellowViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C32B71B61D158A6600B67EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C32B71B81D15AA3800B67EF7 /* RedViewController.xib */,
+				C32B71C51D15AAF500B67EF7 /* OrangeViewController.xib */,
+				C32B71C11D15AAD700B67EF7 /* YellowViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C32B71B71D158A6C00B67EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32B71C31D15AAD700B67EF7 /* YellowViewController.xib in Resources */,
+				C32B71C71D15AAF500B67EF7 /* OrangeViewController.xib in Resources */,
+				C32B71B91D15AA3800B67EF7 /* RedViewController.xib in Resources */,
 				C32B71921D158A4100B67EF7 /* LaunchScreen.storyboard in Resources */,
 				C32B718F1D158A4100B67EF7 /* Assets.xcassets in Resources */,
-				C32B718D1D158A4100B67EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32B718A1D158A4100B67EF7 /* ViewController.swift in Sources */,
+				C32B71C61D15AAF500B67EF7 /* OrangeViewController.swift in Sources */,
+				C32B71C21D15AAD700B67EF7 /* YellowViewController.swift in Sources */,
+				C32B718A1D158A4100B67EF7 /* RedViewController.swift in Sources */,
 				C32B71881D158A4100B67EF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C32B718B1D158A4100B67EF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C32B718C1D158A4100B67EF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C32B71901D158A4100B67EF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
